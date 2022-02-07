@@ -32,4 +32,18 @@ if idioma == 1:
         elijePc = "tijera"
     print("PC elijio: ", elijePc)
     print("...")
-    
+    #  3
+    if elijePc == "piedra" and elijeUsuario == "papel":
+        print("Ganaste, papel envulve piedra")
+    elif elijePc == "papel" and elijeUsuario == "tijera":
+        print("Ganaste, Tijera corta papel")
+    elif elijePc == "tijera" and elijeUsuario == "piedra":
+        print("Ganaste, Piedra pisa tijera")
+    if elijePc == "papel" and elijeUsuario == "piedra":
+        print("perdiste, papel envulve piedra")
+    elif elijePc == "tijera" and elijeUsuario == "papel":
+        print("perdiste, Tijera corta papel")
+    elif elijePc == "piedra" and elijeUsuario == "tijera":
+        print("perdiste, Piedra pisa tijera")
+    elif elijePc == elijeUsuario:
+        print("empate")
