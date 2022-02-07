@@ -47,3 +47,19 @@ if idioma == 1:
         print("perdiste, Piedra pisa tijera")
     elif elijePc == elijeUsuario:
         print("empate")
+    if idioma == 2:
+        print("You put the game in english")
+        aleatorio = random.randrange(0, 3)
+        elijePc = ""
+        print("1)Rock")
+        print("2)Paper")
+        print("3)Scissors")
+        opcion = int(input("Make a choice: "))
+        # 4
+    if opcion == 1:
+        elijeUsuario = "Rock"
+    elif opcion == 2:
+        elijeUsuario = "Paper"
+    elif opcion == 3:
+        elijeUsuario = "Scissors"
+    print("Your choice: ", elijeUsuario)
