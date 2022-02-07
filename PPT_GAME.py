@@ -63,3 +63,12 @@ if idioma == 1:
     elif opcion == 3:
         elijeUsuario = "Scissors"
     print("Your choice: ", elijeUsuario)
+     # 5
+    if aleatorio == 0:
+        elijePc = "Rock"
+    elif aleatorio == 1:
+        elijePc = "Paper"
+    elif aleatorio == 2:
+        elijePc = "Scissors"
+    print("Enemy choice: ", elijePc)
+    print("...")
