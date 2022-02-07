@@ -72,3 +72,18 @@ if idioma == 1:
         elijePc = "Scissors"
     print("Enemy choice: ", elijePc)
     print("...")
+     # 6
+    if elijePc == "Rock" and elijeUsuario == "Scissors":
+        print("You win. Paper win Rock")
+    elif elijePc == "Paper" and elijeUsuario == "Scissors":
+        print("You win. Scissors win Paper")
+    elif elijePc == "Scissors" and elijeUsuario == "Rock":
+        print("You win. Rock win Scissors")
+    if elijePc == "Paper" and elijeUsuario == "Rock":
+        print("You win. Paper win Rock")
+    elif elijePc == "Scissors" and elijeUsuario == "Paper":
+        print("You win. Scissors win Paper")
+    elif elijePc == "Rock" and elijeUsuario == "Scissors":
+        print("You win. Rock win Scissors")
+    elif elijePc == elijeUsuario:
+        print("draw")
